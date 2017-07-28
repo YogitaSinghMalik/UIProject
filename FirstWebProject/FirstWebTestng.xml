@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FirstWebTest" parallel="tests" thread-count="3">
+	<test name="HomePageTest">
+		<classes>
+			<class name="webTesting.HomePageTest" />
+		</classes>
+	</test>
+	<test name="GoogleSearch">
+		<classes>
+			<class name="webTesting.GoogleSearch" />
+		</classes>
+	</test>
+	<test name="DuplicateHomePageTest">
+		<classes>
+			<class name="webTesting.HomePageTest" />
+		</classes>
+	</test>
+</suite>

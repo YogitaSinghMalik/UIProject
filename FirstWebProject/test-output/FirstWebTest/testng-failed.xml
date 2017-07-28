@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [FirstWebTest]" parallel="tests">
+  <test name="LoginPage(failed)" parallel="tests">
+    <classes>
+      <class name="Tests.Login">
+        <methods>
+          <include name="teardown"/>
+          <include name="LOGIN_PrimaryHeading_Verification"/>
+          <include name="LOGIN_PrimaryTextPresent_Verification"/>
+          <include name="LoginPageOpen"/>
+        </methods>
+      </class> <!-- Tests.Login -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [FirstWebTest] -->
